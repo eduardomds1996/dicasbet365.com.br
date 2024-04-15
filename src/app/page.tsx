@@ -5,9 +5,9 @@ import { Fragment } from "react";
 export default function Home() {
   return (
     <Fragment>
-      <main className="bg-white min-h-full min-w-full p-4 w-full min-h-screen">
+      <main className="bg-white min-h-full min-w-full p-4 w-full mxin-h-screen">
         <div className="flex w-100 justify-center items-center">
-          <div className="w-2/4">
+          <div className="w-100 lg:w-2/4">
             <Link href="/como-apostar-em-escanteios">
               <Image
                 src={ComoApostarEmEscanteios}
